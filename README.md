@@ -28,25 +28,30 @@ Antes de começar, você precisará ter instalado em sua máquina:
    git clone https://github.com/RaphaelRPapa/SprintFE3.git
 
 2. **Navegue até o diretório do projeto:**
-    
+
+    ```bash
     cd SprintFE3
 
 3. **Instale as dependências do frontend:**
 
+   ```bash
     npm install
 
 4. **Execute o servidor do backend:**
 
+   ```bash
     node Server.js
 
 4. **Execute o servidor do frontend:**
 
+   ```bash
     npm start
 
 **Uso**
 
-    Acesse a aplicação no seu navegador: http://localhost:3000
-    Faça o login ou registre-se para começar a agendar serviços.
+   Acesse a aplicação no seu navegador: http://localhost:3000
+   
+   Faça o login ou registre-se para começar a agendar serviços.
 
 
 
