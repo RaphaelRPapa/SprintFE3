@@ -49,8 +49,8 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 **Uso**
 
-    Acesse a aplicação no seu navegador: http://localhost:3000
-    Faça o login ou registre-se para começar a agendar serviços.
+   Acesse a aplicação no seu navegador: http://localhost:3000
+   Faça o login ou registre-se para começar a agendar serviços.
 
 
 
