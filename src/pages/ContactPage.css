@@ -1,0 +1,51 @@
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura total da página */
+  background-color: #F0FDF4; /* Verde claro */
+}
+
+.contact-container {
+  background-color: #D8F3DC; /* Verde claro para o balão */
+  padding: 40px 20px;
+  border-radius: 25px;
+  width: 80%; /* Largura do balão */
+  max-width: 600px; /* Largura máxima */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para o balão */
+  text-align: center;
+}
+
+.contact-container h1 {
+  color: #2D6A4F; /* Cor do título */
+  margin-bottom: 20px;
+}
+
+.contact-container h2 {
+  color: #2D6A4F; /* Cor do subtítulo */
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.contact-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-container li {
+  margin: 10px 0; /* Espaçamento entre os itens da lista */
+}
+
+.contact-container a {
+  color: #2D6A4F; /* Cor dos links */
+  text-decoration: underline; /* Sublinhado nos links */
+}
+
+.contact-container a:hover {
+  color: #1B4D3E; /* Cor do link ao passar o mouse */
+}

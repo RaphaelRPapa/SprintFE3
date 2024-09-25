@@ -1,38 +1,19 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Adiciona esta linha para ocultar a barra de rolagem horizontal */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.content {
+  padding-top: 50px; /* Espaço para a navbar fixa */
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #F0FDF4;
+  box-sizing: border-box; /* Inclui padding e borda na largura total */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  max-width: 1200px; /* Limitar a largura máxima do conteúdo */
+  margin: 0 auto; /* Centralizar */
+  padding: 0 15px; /* Adicionar preenchimento nas laterais */
+  box-sizing: border-box; /* Inclui padding na largura total */
 }

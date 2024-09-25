@@ -1,0 +1,62 @@
+.booking-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da página */
+    background-color: #F0FDF4; /* Verde claro */
+  }
+  
+  .booking-container {
+    background-color: #D8F3DC; /* Verde claro para o grande balão */
+    padding: 40px 20px;
+    border-radius: 25px;
+    width: 80%; /* Largura do balão */
+    max-width: 600px; /* Largura máxima */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para o balão */
+    text-align: center;
+  }
+  
+  .booking-container h1 {
+    color: #2D6A4F; /* Cor do título */
+    margin-bottom: 20px;
+  }
+  
+  .booking-container p {
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os campos do formulário */
+  }
+  
+  .booking-form input,
+  .booking-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .booking-form .error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px; /* Coloca a mensagem de erro logo abaixo do campo */
+  }
+  
+  .schedule-button {
+    background-color: #2D6A4F;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .schedule-button:hover {
+    background-color: #1B4D3E; /* Cor do botão ao passar o mouse */
+  }
+  

@@ -1,0 +1,82 @@
+/* Navbar.css */
+.navbar {
+  background-color: #2D6A4F;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%; /* Certifique-se de que a largura é 100% */
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+.navbar-logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navbar-links {
+  display: flex;
+  flex-grow: 1; /* Permite que a seção de links utilize o espaço disponível */
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px; /* Reduzir margem para melhorar responsividade */
+}
+
+.navbar-buttons button {
+  background-color: #38B000;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px; /* Reduzir margem para evitar corte */
+  white-space: nowrap; /* Evitar quebra de linha */
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center; /* Centralizar verticalmente */
+}
+
+.navbar-buttons button:hover {
+  background-color: #2D6A4F;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none; /* Oculta links em telas menores */
+  }
+
+  .navbar-hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbar.active .navbar-links {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #2D6A4F;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar.active .navbar-links a {
+    display: block;
+    margin: 10px 0;
+  }
+}

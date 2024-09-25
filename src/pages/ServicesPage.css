@@ -1,0 +1,76 @@
+.services-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa a altura total da página */
+    background-color: #F0FDF4; /* Verde claro suave */
+  }
+  
+  .services-container {
+    background-color: #D8F3DC; /* Verde claro para o grande balão */
+    padding: 50px 20px;
+    border-radius: 25px;
+    width: 80%; /* Preenche 80% da largura da página */
+    max-width: 1200px; /* Largura máxima para evitar que o balão fique muito largo */
+    height: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para o grande balão */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .services-title {
+    color: #2D6A4F;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas para os serviços */
+    gap: 20px; /* Espaçamento entre os balões de serviço */
+    width: 100%; /* Largura total dentro do grande balão */
+  }
+  
+  .service-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px); /* Efeito hover */
+  }
+  
+  .service-card h3 {
+    color: #2D6A4F;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    color: #555555;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .service-button {
+    background-color: #2D6A4F;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-button:hover {
+    background-color: #1B4D3E;
+  }
+  

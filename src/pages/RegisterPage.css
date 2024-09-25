@@ -1,0 +1,52 @@
+/* src/components/RegisterPage.css */
+
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da página */
+    background-color: #F0FDF4; /* Verde claro */
+  }
+  
+  .register-container {
+    background-color: #D8F3DC; /* Verde claro para o balão */
+    padding: 40px 20px;
+    border-radius: 25px;
+    width: 80%; /* Largura do balão */
+    max-width: 400px; /* Largura máxima */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para o balão */
+    text-align: center;
+  }
+  
+  .register-container h1 {
+    color: #2D6A4F; /* Cor do título */
+    margin-bottom: 20px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os campos do formulário */
+  }
+  
+  .register-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .register-button {
+    background-color: #2D6A4F;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #1B4D3E; /* Cor do botão ao passar o mouse */
+  }
+  
