@@ -16,19 +16,21 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Navbar />
-      <div className="content">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/services" element={<ServicesPage />} />
-          <Route path="/booking" element={<BookingPage />} />
-          <Route path="/userbookings" element={<UserBookingsPage />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/register" element={<RegisterPage />} />
-        </Routes>
-      </div>
-      <Footer />
+      <AuthProvider>
+        <Navbar />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/booking" element={<BookingPage />} />
+            <Route path="/userbookings" element={<UserBookingsPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/register" element={<RegisterPage />} />
+          </Routes>
+        </div>
+        <Footer />
+      </AuthProvider>
     </Router>
   );
 }
@@ -36,8 +38,6 @@ function App() {
 export default App;
 
 ReactDOM.render(
-  <AuthProvider>
-    <App />
-  </AuthProvider>,
+  <App />,
   document.getElementById('root')
 );
