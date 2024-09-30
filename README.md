@@ -2,6 +2,11 @@
 
 Este é um projeto desenvolvido para facilitar o agendamento de serviços como Renovação de CNH, Emplacamento de Veículos, Segunda Via de RG, Alistamento Militar e Passaporte. O sistema possui autenticação de usuários e permite que cada um visualize e cancele seus agendamentos.
 
+Ana Araujo rm99816 
+Bruna Oliveira rm99518 
+Luiza Gomes rm97797 
+Raphael Papa rm552432 
+
 ## Tecnologias Utilizadas
 
 - React
